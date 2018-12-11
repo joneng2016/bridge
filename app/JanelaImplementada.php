@@ -3,6 +3,6 @@
 namespace App;
 
 abstract class JanelaImplementada{
-    abstract function desenharJanela($titulo);
-    abstract function desenharBotao($titulo);
+    abstract protected function desenharJanela($titulo);
+    abstract protected function desenharBotao($titulo);
 }   
